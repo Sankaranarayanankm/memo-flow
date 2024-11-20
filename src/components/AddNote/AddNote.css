@@ -1,0 +1,90 @@
+.addNote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.addNote h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333333;
+}
+
+.addNote__inputs {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.addNote__topic,
+.addNote__desc {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.addNote__topic label,
+.addNote__desc label {
+  font-size: 0.9rem;
+  color: #555555;
+  margin-bottom: 0.5rem;
+}
+
+.addNote__topic input,
+.addNote__desc input {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.addNote__topic input:focus,
+.addNote__desc input:focus {
+  border-color: #4caf50;
+  box-shadow: 0 0 3px rgba(76, 175, 80, 0.5);
+}
+
+.addNote__button {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.addNote__button button {
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.addNote__button button:hover {
+  background-color: #45a049;
+}
+
+.addNote__button button:active {
+  background-color: #388e3c;
+}
+
+.addNote__button button[type="button"] {
+  background-color: #f44336;
+}
+
+.addNote__button button[type="button"]:hover {
+  background-color: #e53935;
+}
+
+.addNote__button button[type="button"]:active {
+  background-color: #d32f2f;
+}
